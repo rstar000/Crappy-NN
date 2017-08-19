@@ -11,6 +11,8 @@ Network n = Network();
     n.addLayer(10);
     n.setup();
 ```
+The first and last layers are input and output
+
 ### Then run the computations and update the weights
 
 ```
@@ -21,4 +23,4 @@ n.resetGradients();
 
 ### You can get the predictions vector like so:
 
-vector<float> res = n.getPrediction();
+`vector<float> res = n.getPrediction();`
