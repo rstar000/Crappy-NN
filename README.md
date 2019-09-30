@@ -1,6 +1,6 @@
-# Crappy-NN
+# Neural network in plain C++
 
-This is a shitty implementation of a Multilayer Perceptron neural network using a computational graph. It's written entirely in pure C++!
+This is an implementation of a Multilayer Perceptron neural network using a computational graph. It's written entirely in pure C++!
 
 ### Create a network like this:
 ```
